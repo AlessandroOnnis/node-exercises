@@ -1,0 +1,35 @@
+Create your own HTTP server
+
+Use the techniques you've learnt so far to create your own HTTP server with Express. Your server should:
+
+Automatically recompile and restart when you make changes
+Have a GET route that sends a JSON response
+Have an integration test for the GET route
+Use an environment variable to configure the server port
+
+//config of project
+
+1- npm init --yes                                   > Starting a new .json
+
+2- npm install --save-dev jest                      > installing jest into dev dependencies
+-----jest.config.js                                 > Configuration object
+-----update .json                                   > Add jest to script test (check with "npm test")
+-----npm install --save-dev ts-jest
+-----npm install --save-dev @types/jest
+
+3- npm install --save-dev typescript                > installing ts into dev dependencies
+-----npm install --save-dev @types/node 
+-----npm install --save-dev @tsconfig/node16
+-----tsconfig.json                                  > setup compiler
+
+4- npm install express                              > installing in dependencies
+-----npm install express-async-errors               > installing in dependencies
+-----npm install --save-dev @types/express          > installing into dev dependencies
+
+5- npm install --save-dev nodemon                   > installing nodemone dev dependencies
+
+6- npm install --save-dev concurrently              > installing concurrently dev dependencies
+
+7- npm install --save-dev supertest @types/supertest
+
+8- npm install dotenv
