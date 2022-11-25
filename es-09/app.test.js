@@ -12,5 +12,5 @@ test("GET /", async () => {
     .expect(200)
     .expect("Content-Type", "text/html");
 
-  expect(response.text);
+  expect(response.text).toEqual('ma che è sta roba');
 });
