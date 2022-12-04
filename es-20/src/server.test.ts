@@ -260,7 +260,7 @@ describe("POST /planets/:id/photo", ()=>{
         .attach("photo", "test-features/photo/bluVerde.png")
         .expect(201)
         .expect("Access-Control-Allow-Origin", "http://localhost:8080");
-    }) 
+    })
 
     //pianeta non esistente
     test("il pianeta non esiste", async()=>{

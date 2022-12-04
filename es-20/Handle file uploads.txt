@@ -15,3 +15,6 @@ step 2 >>> npm install multer                             multer serve per la ge
 step 3 >>> creazione di multer storage
 
 step 4 >>> creazione del mock multer per prevenire la creazione di dati se non necessario
+
+step 5 >>> npm install mime                               ci consente di videre il tipo di file uploadato per prendere il file extension
+            npm install --save-dev @types/mime
